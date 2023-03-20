@@ -4,7 +4,7 @@ Onyx DAO is an experimental Arbitrum DeFi protocol with an innovative model whic
 
 ## ONYX Token 🪙
 
-The ONYX Token is the key component of Onyx DAO. It is initially emitted to users through farming, but the main use of ONYX is to use as a means of bonding liquidity for the protocol. ONYX has a hard cap of 1,300,000 tokens. You can read the full token details in the [docs here](https://onyx-dao.gitbook.io/onyx-dao/welcome/what-is-onyx-dao)
+The ONYX Token is the key component of Onyx DAO. It is initially emitted to users through farming, but the main use of ONYX is to use as a means of bonding liquidity for the protocol. ONYX has a hard cap of 1,570,000 tokens. You can read the full token details in the [docs here](https://onyx-dao.gitbook.io/onyx-dao/welcome/what-is-onyx-dao)
 
 # Mainnet Contracts ✅
 
