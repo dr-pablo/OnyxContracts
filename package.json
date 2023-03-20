@@ -5,8 +5,13 @@
   "scripts": {
     "migrate:farms": "truffle migrate --network arbitrum --reset --f 1 --to 1",
     "migrate:pools": "truffle migrate --network arbitrum --reset --f 2 --to 2",
-    "verify:farms": "truffle run verify MasterChefOnyx --network arbitrum && truffle run verify OnyxToken --network arbitrum && truffle run verify OnyxVault --network arbitrum",
-    "verify:pools": "truffle run verify StakingPoolFactory --network arbitrum && truffle run verify StakingPool --network arbitrum"
+    "migrate:vaults": "truffle migrate --network arbitrum --reset --f 3 --to 3",
+    "migrate:farms:local": "truffle migrate --network local --reset --f 1 --to 1",
+    "migrate:pools:local": "truffle migrate --network local --reset --f 2 --to 2",
+    "migrate:vaults:local": "truffle migrate --network local --reset --f 3 --to 3",
+    "verify:farms": "truffle run verify MasterChefOnyx --network arbitrum && truffle run verify OnyxToken --network arbitrum && truffle run verify OnyxLockedVesting --network arbitrum",
+    "verify:pools": "truffle run verify StakingPoolFactory --network arbitrum && truffle run verify StakingPool --network arbitrum",
+    "verify:vaults": "truffle run verify OnyxVault --network arbitrum"
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.3.0",
